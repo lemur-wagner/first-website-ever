@@ -1,0 +1,100 @@
+h1 {
+  font-size: 42px;
+  margin: 2px 4px;
+  line-height: 80px;
+  border-radius: 15px;
+  color: #020044;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    #fe2dff 100.3%
+  );
+  box-shadow: 5px 5px rgb(68, 14, 39);
+}
+
+h2 {
+  display: block;
+  font-size: 21px;
+  color: #272b6b;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+p {
+  margin: 0;
+  line-height: 1.35;
+  color: #272b6b;
+  text-align: justify;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  color: #232126;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 1s ease-out;
+  box-shadow: 5px 3px rgb(68, 14, 39);
+  background-color: rgb(255, 241, 165);
+}
+
+button:hover {
+  cursor: pointer;
+  color: #272044;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    #fe2dff 100.3%
+  );
+}
+img {
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+a {
+  display: block;
+  line-height: 2.25;
+  color: #232126;
+}
+
+a,
+.contact,
+.centrum,
+.author,
+.footer {
+  text-align: center;
+}
+
+.contact {
+  color: #fe2dff;
+  display: justify;
+}
+
+.centrum {
+  font-size: 15px;
+}
+.container {
+  width: 70%;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: #7ad1d7;
+}
+.insta {
+  display: inline;
+}
+.insta-photo {
+  display: inline;
+  max-width: 2.8%;
+  max-height: 2.8%;
+}
